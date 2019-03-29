@@ -1,0 +1,82 @@
+.center{
+  margin:auto;
+  width: 50%;
+  
+  padding: 10px;
+  color:black;
+  margin-top:50px;
+}
+.layout{
+  background-color: transparent;  
+}
+
+.btn {
+    background-color: green;
+    background-image: linear-gradient(-180deg,#fafbfc,green 90%);
+    color: #24292e;
+    background-position: -1px -1px;
+    background-repeat: repeat-x;
+    background-size: 110% 110%;
+    border: 1px solid rgba(27,31,35,.2);
+    border-radius: .25em;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 12px;
+    position: relative;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.btn-block {
+     display: block;
+    text-align: center;
+    width:50%;
+    margin-top:20px;
+}
+.btn-primary {
+    background-color: #28a745;
+    background-image: linear-gradient(-180deg,#34d058,#28a745 90%);
+    color: #fff;
+}
+button, input {
+    overflow: visible;
+}
+button, input, select, textarea {
+    font: Roboto;
+    margin: 0;
+}
+.auth-form-body {
+    background-color: #f2f2f2;
+    /*border: 1px solid #d8dee2;
+    border-radius: 0 0 3px 3px;*/
+    border-top: 0;
+    font-size: 14px;
+    padding: 20px;
+    border-radius:10px;
+}
+
+.mt-3 {
+    margin-top: 16px!important;
+}
+label {
+    font-weight: bold;
+    font-size: 18px;
+}
+#mar{
+  margin:auto;
+  width: 50%;
+  padding: 10px;
+  color:black;
+  margin-top:50px;
+}
+#login_field,#email,#password{
+   width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}

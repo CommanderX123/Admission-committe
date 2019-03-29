@@ -1,0 +1,376 @@
+body {
+	padding:0;
+	margin:0;
+	background-color:white;
+	color:white;
+	box-sizing: border-box;
+  font-family: 'Roboto Condensed Light', sans-serif;
+  font-family: 'Roboto', sans-serif;
+
+}
+ul{
+	list-style-type:none;
+	margin: 25px;
+}
+#brand{
+	width:70px;
+	height: 70px;
+	margin-left:12px;
+	margin-right: 12px;
+}
+#back-to-top {
+  /*width: 50px;
+  height: 50px;
+  text-align: center;*/
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #a6a6a6;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 10px;
+}
+#back-to-top:hover {
+  background-color: #555;
+}
+.row{
+  background-color:none;
+  margin-left: 5px;
+}
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: white;
+
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #bfbfbf;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #6699ff;
+  text-decoration: none;
+}
+#pc{
+  color:#a6a6a6;
+}
+hr{
+  width: 702px;
+  background-color: #bfbfbf;
+  margin-top:0px;
+  margin-left:43px;
+}
+.page-header{
+  margin-left:43px;
+  color:#a6a6a6; 
+}
+.field-items{
+ /*background-color:#a6a6a6;*/
+ /*margin-left: 25px;
+ border: 4px solid #a6a6a6;
+ border-radius:0px;*/
+ font-family: "Roboto Condensed Light";
+ font-style: :normal;
+ font-weight: normal;
+
+}
+.field-item{
+  padding-top:10px;
+  padding-left:10px;
+  background-color:#a6a6a6;
+  margin-left: 43px;
+  border-left:3px solid #3333ff;
+  border-radius:0px;
+}
+.odd{
+  border-bottom:1px solid black;
+}
+#a{
+  width: 55%;
+  background-color: black;
+  margin-left:63px;
+}
+#r{
+  background-color:#3333ff;
+    color:#3333ff;
+    -webkit-transform:rotate(90deg);
+    position:absolute;
+    width:178px;
+    height:1.5px;
+    left:-70px;
+    top:370px;
+    
+}
+.bar{
+  position: fixed; 
+  top: 0px; 
+  left: 0px; 
+  width: 100%; 
+  height: 3px; 
+  background-color: 
+  rgb(247, 155, 26); 
+  z-index: 9999999;
+}
+.clr{
+  color:black;
+  text-decoration:none;
+
+}
+.clr:hover{
+  color:#6699ff;
+  text-decoration: none;
+}
+#clr1{
+  color:blue;
+  text-decoration: none;
+}
+#clr1:hover{
+color:#007bff;
+  text-decoration: none;
+}
+#bor{
+  border:1px solid #bfbfbf;
+  border-bottom:1px solid #262626; 
+  border-radius:5px;
+  padding: 20px;
+}
+.bold{
+  color: rgb(74, 52, 58); /* Цвет текста */
+  font-weight: bold; /* Жирное начертание */
+  margin-left: 15px;
+
+}
+.num{
+  display: inline-block;
+}
+#number{
+  margin-left:164px;
+  color:black;
+}
+#number1{
+  color:black;
+}
+#hid{
+  
+  visibility: hidden;
+}
+#vul{
+  margin-left:5px;
+  color:black;
+}
+.links{
+  margin-top:0px;
+   
+}
+.block-title{
+text-align:center;
+color: black;
+font-weight: bold;
+}
+#test{
+  color:black;
+}
+#news{
+  color:black;
+  padding:20px; 
+}
+#day{
+  font-size: 14px;
+  border-bottom: 2px dotted #4286f4;
+}
+#news_img{
+  float: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  width: 36px;
+  height: 36px;
+}
+#page{
+  color:black; 
+}
+#next_link{
+  background-color:white;
+  margin-left: 5px;
+  border:2px solid #ddd;
+}
+
+/*#foo{
+  text-align:center;
+  margin-top: 10px;
+  margin-bottom: -15px; 
+}*/
+.
+.container1{
+  background-color: black;
+}
+#fhr{
+  width: 100%;
+
+  margin-left: 0px;
+  background-color: #263238;
+}
+.col{
+  background-color: #3e4551;
+  height: 100%;
+}
+.copy{
+  background-color:#1a252a;
+}
+
+.fcol{
+  background-color:#3e4551;
+  height: 100%;
+}
+/*.fcol a i{
+  font-size: 35px;
+  display: inline-block;
+  background-color: #3b5998;
+  border-radius: 20px;
+  padding:3px;
+  margin: 5px;
+}*/
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+}
+.fab {
+    font-family: 'Font Awesome 5 Brands';
+}
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+.fa-linkedin-in:before {
+    content: "\f0e1";
+}
+.fa-google-plus-g:before {
+    content: "\f0d5";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-facebook-f:before {
+    content: "\f39e";
+}
+a.waves-effect, a.waves-light {
+    display: inline-block;
+  }
+.btn-github {
+    background-color: #212529!important;
+    color: #fff!important;
+}
+.btn-li{
+background-color: #4182ca!important;
+    color: #fff!important;
+}
+.btn-gplus{
+background-color: #dd4b39!important;
+    color: #fff!important;
+}
+.btn-tw{
+background-color: #56acee!important;
+    color: #fff!important;
+}
+.btn-fb{
+  background-color: #3b5998!important;
+    color: #fff!important;
+}
+.btn-floating {
+    -webkit-box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+}
+.waves-effect {
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+.ml-1, .mx-1 {
+    margin-left: .25rem!important;
+}
+.mr-1, .mx-1 {
+    margin-right: .25rem!important;
+}
+.font-small {
+    font-size: .9rem;
+}
+.btn-floating:before {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.pager{
+  list-style: none;
+}
+#button{
+    display: inline-block;
+    padding: 5px 14px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    color:blue;
+}
+  #button:hover{
+  background-color:#e6e6e6;
+  color:#007bff;
+  text-decoration: none;
+}
+#pager_1{
+  color:black;
+}
+.info{
+  color: black;
+  font-weight: bold;
+}
+.ptext{
+  color: black;
+  margin-left:43px; 
+}
